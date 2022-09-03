@@ -64,6 +64,11 @@ section.normal {
 section.imagem {
     background-color: rgb(59, 58, 58);
     color: white;
+    background: black url("imagens/background001.jpg") center center/cover fixed;
+}
+
+section#imagem {
+    background-image: url("imagens/background002.jpg");
 }
 
 section.imagem > p {
